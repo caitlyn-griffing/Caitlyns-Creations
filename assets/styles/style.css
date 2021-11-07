@@ -32,7 +32,7 @@ nav {
     height: 55px;
 }
 
-/** HOME, ABOUT ME, MY WORK, CONTACT ME  button  */
+/** NAV BUTTONS  */
 nav a {
     color: #f80188;
     background: #212121;
@@ -51,7 +51,7 @@ nav a {
     border-radius: 10px;
 }
 
-/** nav buttons before anything is clicked or hovered */
+/** NAV BUTTONS BEFORE BUTTON BACKGROUND */
 nav a:before {
     content: '';
     background: linear-gradient(45deg, #48099e, #f80188,  #440bd4);
@@ -69,22 +69,22 @@ nav a:before {
     border-radius: 13px;
 }
 
-/** Text color turned white while button is being clicked */
+/** TEXT COLOR WHITE WHITE CLICK IS ACTIVE */
 nav a:active {
     color: white;
 }
 
-/** Turns button background transparent in order to see the background glow after (active) click  */
+/** CREATES TRANSPARENT BUTTON BACKGROUND UPON CLICK TO REVEAL  MULI-COLORED BACKGROUND */
 nav a:active:after {
     background: transparent;
 }
 
-/** Creates the hover effect with opacity at 1 */
+/** CREATES HOVER EFFECT WITH OPACITY 1 */
 nav a:hover:before {
     opacity: 1;
 }
 
-/** Nav buttons after */
+/** NAV BUTTONS AFTER CLICK */
 nav a:after {
     z-index: -1;
     content: '';
@@ -97,7 +97,7 @@ nav a:after {
     border-radius: 10px;
 }
 
-/** CG logo */
+/** CG LOGO */
 .logo {
     justify-content: center;
     align-items: center;
@@ -107,4 +107,43 @@ nav a:after {
     position: absolute;
     top: 15px;
     right: 5%;
+}
+
+/** ALL SECTIONS */
+section {
+    padding: 30px;
+    margin: 15px;
+}
+
+h1 {
+    font-size: 69px;
+    font-family: 'Merienda';
+}
+
+h2 {
+    font-size: 55px;
+    margin-top: 7%;
+}
+
+/** INTRO SECTION */
+section.intro {
+    margin-top: 3%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: dashed 2px white;
+}
+
+/** HEADSHOT IMAGE */
+section.intro img {
+    width: 250px;
+    height: auto;
+    margin-top: 2%;
+}
+
+/** ABOUT ME SECTION */
+section#about {
+    border-bottom: dashed 2px white;
 }

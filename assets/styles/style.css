@@ -364,7 +364,13 @@ a.button:after {
 /***************** MEDIA QUERIES *****************/
 
 @media screen and (max-width: 768px){
-     li {
-         flex: 0 0 100%;
-     }
+    section {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    
+    .single-image {
+        width: 75%;
+    }
 }

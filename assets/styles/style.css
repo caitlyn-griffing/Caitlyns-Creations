@@ -188,7 +188,7 @@ li {
     flex: 0 0 50%;
     align-items: center;
     text-align: center;
-    margin: 0 auto;
+    margin-top: 17px;
     padding: 3px;
     display: flex;
 }
@@ -196,6 +196,10 @@ li {
 .single-image {
     flex: 0 0 75%;
     justify-content: center;
+}
+
+.workcard img {
+    border-radius: 10px;
 }
 
 .banner {
@@ -354,11 +358,11 @@ a.button:after {
 /*************** FONTS *****************/
 @font-face {
     font-family: petit-formal;
-    src: url(/code/2Caitlyns-Creations/assets/fonts/PetitFormalScript-Regular.ttf);
+    src: url(/assets/fonts/PetitFormalScript-Regular.ttf);
 }
 @font-face {
     font-family: tillana;
-    src: url(/code/2Caitlyns-Creations/assets/fonts/Tillana-Regular.ttf);
+    src: url(/assets/fonts/Tillana-Regular.ttf);
 }
 
 /***************** MEDIA QUERIES *****************/

@@ -12,7 +12,7 @@
 
 ## **Link** and **Preview** of Deployed Web Page
 
-- [Deployed Web Page] (https://caitlyn-griffing.github.io/Caitlyns-Creations/)
+- [Deployed Web Page](https://caitlyn-griffing.github.io/Caitlyns-Creations/)
 
 ![web page screenshot1](assets/images/CC-rmSS-01.png)
 
